@@ -1,3 +1,25 @@
+.recommended-recos-header-container {
+  background-color: #9abf3c;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recommended-recos-header {
+  font-weight: bold !important;
+  color: white !important;
+}
+
+.old-price {
+  font-weight: bold !important;
+}
+
+.new-price {
+  font-weight: bold !important;
+}
+
 .item {
   background-color: #f8f9fa;
 }
@@ -27,7 +49,7 @@ a:hover {
 }
 
 .modal-dialog {
-  max-width: 67%;
+  max-width: 50%;
   margin: 0 auto;
 }
 
@@ -92,12 +114,13 @@ a:hover {
 .product-image-container {
   overflow: hidden;
 }
-
 .arrow-container {
   border-radius: 50%;
   height: 35px;
   width: 35px;
   font-size: 1.25rem;
+  background-color: #9abf3c !important;
+  color: white !important;
 }
 
 #product-items {
@@ -107,8 +130,9 @@ a:hover {
 .cartoverlay-recos-price-container {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
   margin-bottom: 1rem;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .cartoverlay-recos-price-container .new-price {
